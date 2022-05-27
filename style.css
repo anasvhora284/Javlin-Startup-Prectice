@@ -201,7 +201,7 @@
 }
 
 .numbers_screen {
-  height: 100vh;
+  height: 100%;
   text-align: center;
 }
 
@@ -255,7 +255,7 @@
 }
 
 .cards_carousel {
-  height:100vh;
+  height:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -630,6 +630,7 @@
   }
 
   .mail_image {
+    top: 50%;
     font-size: 100vw !important;
   }
 }
@@ -671,5 +672,60 @@
 
   .logos_div {
     height: 40vh;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px) {
+  .navbar a{
+    font-size: 30px;
+  }
+
+  .startup_text1 , .startup_text1 p {
+    padding-left: 0 !important;
+    font-size: 50px;
+  }
+
+  .overlay_features a {
+    font-size: x-large;
+  }
+
+  .btn_div button {
+    font-size: 30px;
+    width: 50%;
+  }
+
+  .Building_vision {
+    font-size: 25px;
+    display: grid;
+    grid-row: inherit;
+  }
+
+  .vision {
+    position: absolute;
+    grid-column: 12;
+  } 
+
+  .future_website {
+    margin-top: 40px;
+  }
+
+  .about_product {
+    height: 40vh !important;
+  }
+
+  .num_text_div {
+    font-size: 25px;
+  }
+
+  .cards_carousel {
+    background: linear-gradient(180deg, rgba(244,244,244,1) 70%, rgba(255,255,255,1) 70%) !important;
+  }
+
+  .carousel_header_text {
+    margin-top: 40px !important;
+  }
+
+  .pre_title_text {
+    font-size: 30px !important;
   }
 }
